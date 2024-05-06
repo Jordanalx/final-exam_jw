@@ -1,0 +1,31 @@
+/* Name: Jordan Williams */
+/* Exam: MIS 676 Spring 2024 Exam II / Final Exam */
+/* Date: Monday, May 06, 2024 */
+
+/* CSS for the horizontal menu */
+#navcontainer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#navcontainer ul li {
+  display: inline;
+}
+
+#navcontainer ul li a {
+  letter-spacing: 7px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.3em 1.1em;
+  color: #b30059; /* Font color */
+  background-color: #f2f2f2; /* Background color */
+  text-decoration: none;
+}
+
+#navcontainer ul li a:hover {
+  color: #ffffff; /* Font color on hover */
+  background-color: #b30059; /* Background color on hover */
+}
