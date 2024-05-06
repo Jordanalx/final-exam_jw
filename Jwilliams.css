@@ -1,6 +1,30 @@
+```css
 /* Name: Jordan Williams */
 /* Exam: MIS 676 Spring 2024 Exam II / Final Exam */
 /* Date: Monday, May 06, 2024 */
+
+/* CSS for the body */
+body {
+  background-color: #c0c0c0; /* Silver background color */
+  font-family: Calibri, sans-serif; /* Default font to Calibri, then sans-serif */
+}
+
+/* CSS for the top section */
+.top-section {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.side-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 /* CSS for the horizontal menu */
 #navcontainer ul {
@@ -20,12 +44,59 @@
   font-weight: bold;
   text-align: center;
   padding: 0.3em 1.1em;
-  color: #b30059; /* Font color */
-  background-color: #f2f2f2; /* Background color */
+  color: #b30059;
+  background-color: #f2f2f2;
   text-decoration: none;
 }
 
 #navcontainer ul li a:hover {
-  color: #ffffff; /* Font color on hover */
-  background-color: #b30059; /* Background color on hover */
+  color: #ffffff;
+  background-color: #b30059;
 }
+
+/* CSS for the H1 heading */
+h1 {
+  color: #b30059; /* Font color */
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000; /* Text shadow */
+}
+
+/* CSS for the table */
+table {
+  border: 20px solid #b30059; /* Border with weight of 20px */
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #b30059;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Background color */
+  color: #b30059; /* Font color */
+  font-weight: bold;
+}
+
+/* Centering the weblink column */
+td:last-child {
+  text-align: center;
+}
+
+/* CSS for the fieldset */
+fieldset {
+  border: 3px solid #b30059; /* Border with weight of 3px */
+  padding: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+legend {
+  color: #b30059; /* Font color */
+  font-weight: bold;
+}
+```

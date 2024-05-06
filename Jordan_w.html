@@ -5,49 +5,71 @@
   <!-- Exam: MIS 676 Spring 2024 Exam II / Final Exam -->
   <!-- Date: Monday, May 06, 2024 -->
   <title>Jordan Williams MIS 676 Exam II / Final Exam</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <!-- Top section -->
   <div class="top-section">
     <!-- Background and side images -->
-    <img src="path/to/background-image.jpg" alt="Background Image" class="side-image">
+    <img src="background-image.jpg" alt="Background Image" class="background-image">
+    <img src="side-image.jpg" alt="Side Image" class="side-image">
     <!-- Horizontal menu -->
-    <ul class="horizontal-menu">
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About Us</a></li>
-      <li><a href="#resources">Resources</a></li>
-      <li><a href="#testimonials">Testimonials</a></li>
+    <ul id="navcontainer">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Testimonials</a></li>
       <li><a href="mailto:your-email@example.com">Contact Us</a></li>
     </ul>
   </div>
-  <!-- BLANK lines -->
+
+  <!-- Blank lines -->
   <br><br>
+
   <!-- H1 heading -->
   <h1>Welcome to Jordan Williams's Page</h1>
-  <!-- BLANK lines -->
+
+  <!-- Blank lines -->
   <br><br>
-  <!-- Formatted Table -->
+
+  <!-- Table -->
   <table>
     <tr>
-      <th>Name</th>
-      <th>Description</th>
+      <th>#</th>
+      <th>Houston RideShare Options</th>
       <th>Weblink</th>
     </tr>
     <tr>
-      <td>Item 1</td>
-      <td>Description 1</td>
-      <td><a href="#">Link 1</a></td>
+      <td>1</td>
+      <td>UBER</td>
+      <td><a href="https://www.uber.com/" target="_blank">https://www.uber.com/</a></td>
     </tr>
     <tr>
-      <td>Item 2</td>
-      <td>Description 2</td>
-      <td><a href="#">Link 2</a></td>
+      <td>2</td>
+      <td>Lyft</td>
+      <td><a href="https://www.lyft.com/" target="_blank">https://www.lyft.com/</a></td>
     </tr>
     <tr>
-      <td>Item 3</td>
-      <td>Description 3</td>
-      <td><a href="#">Link 3</a></td>
+      <td>3</td>
+      <td>Metro</td>
+      <td><a href="https://www.ridemetro.org/riding-metro/transit-services/star-vanpool" target="_blank">https://www.ridemetro.org/riding-metro/transit-services/star-vanpool</a></td>
     </tr>
   </table>
+
+  <!-- Blank lines -->
+  <br><br>
+
+  <!-- Fieldset with Form -->
+  <fieldset>
+    <legend>Please submit your Name and Email Address for more information:</legend>
+    <form>
+      Name: <input type="text" name="name"><br><br>
+      Email: <input type="email" name="email"><br><br>
+      Receive promotional email:
+      <input type="radio" name="receive-email" value="yes"> Yes
+      <input type="radio" name="receive-email" value="no" checked> No<br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </fieldset>
 </body>
 </html>
